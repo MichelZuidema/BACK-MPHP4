@@ -10,6 +10,7 @@ if (isset($_POST['submit'])) {
     $member_since = $_POST['member_since'];
     $id = $_POST['id'];
 
+    // Check for empty variables
     if (strlen($gender) > 0 &&
         strlen($first_name) > 0 &&
         strlen($last_name) > 0 &&

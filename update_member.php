@@ -2,8 +2,8 @@
 require_once 'src/includes/session.inc.php';
 require_once 'src/config.inc.php';
 
+// Get the ID from the url and check if it is a number
 $id = $_GET['id'];
-
 if(!is_numeric($id)) {
     echo "<script>alert('The ID is not a valid number!');</script>";
     header("Refresh: 0;url=home.php");

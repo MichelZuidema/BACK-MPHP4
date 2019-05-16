@@ -1,5 +1,6 @@
 <?php
 
+// Credentials
 $host = "localhost";
 $user = "root";
 $password = "Kaas@360!420";

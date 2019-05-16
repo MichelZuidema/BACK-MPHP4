@@ -2,8 +2,10 @@
 require_once 'src/includes/session.inc.php';
 require_once '../config.inc.php';
 
+//Get ID from URL
 $id = $_GET['id'];
 
+// Check if ID is a number
 if (is_numeric($id)) {
     $query = "DELETE FROM `leden` WHERE id = '$id'";
 
