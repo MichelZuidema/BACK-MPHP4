@@ -25,7 +25,7 @@ if(!is_numeric($id)) {
                         echo "<img src='uploads/" . $id . ".jpg' alt='foto' width='360' height='450'>";
                     }
                 ?>
-                <form action="src/processes/picture_process.php" method="POST">
+                <form action="src/processes/picture_process.php" method="POST" enctype="multipart/form-data">
                     <input type="hidden" name="id" value="<?php echo $id; ?>">
 
                     <div class="form-group">
