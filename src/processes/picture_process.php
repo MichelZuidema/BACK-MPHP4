@@ -9,7 +9,7 @@ if (isset($_FILES['picture']) && $_FILES['picture']['error'] == 0) {
         $_FILES['picture']['type'] == "image/jpeg" ||
         $_FILES['picture']['type'] == "image/pjpeg") {
 
-        $folder = "/BACK-MPHP4/uploads/";
+        $folder = "../../uploads/";
 
         $file = $_POST['id'] . '.jpg';
 

@@ -21,8 +21,8 @@ if(!is_numeric($id)) {
         <main style="margin-top: 10%;">
             <div class="container">
                 <?php
-                    if(file_exists("/BACK-MPHP4/uploads/" . $id . '.jpg')) {
-                        echo "<img src='uploads/" . $id . ".jpg' alt='foto'>";
+                    if(file_exists("uploads/" . $id . '.jpg')) {
+                        echo "<img src='uploads/" . $id . ".jpg' alt='foto' width='360' height='450'>";
                     }
                 ?>
                 <form action="src/processes/picture_process.php" method="POST">
