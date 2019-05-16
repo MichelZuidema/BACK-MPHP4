@@ -37,7 +37,7 @@ require_once 'src/config.inc.php';
                             echo "<td>" . $row['last_name'] . "</td>";
                             echo "<td>" . $row['gender'] . "</td>";
                             echo "<td>" . $row['member_since'] . "</td>";
-                            echo "<td><a href='update_member.php?id=" . $row['id'] . "'>Update</a></td>";
+                            echo "<td><a href='update_member.php?id=" . $row['id'] . "'>Update</a> <a href='delete_member.php?id=" . $row['id'] . "'>Delete</a></td>";
                             echo '</th>';
                             echo '</tr>';
                         }
