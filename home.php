@@ -21,6 +21,7 @@ require_once 'src/config.inc.php';
                         <th scope="col">Last Name</th>
                         <th scope="col">Gender</th>
                         <th scope="col">Member Since</th>
+                        <th scope="col">Event</th>
                     </tr>
                     </thead>
                     <tbody>
@@ -36,6 +37,7 @@ require_once 'src/config.inc.php';
                             echo "<td>" . $row['last_name'] . "</td>";
                             echo "<td>" . $row['gender'] . "</td>";
                             echo "<td>" . $row['member_since'] . "</td>";
+                            echo "<td><a href='update_member.php?id=" . $row['id'] . "'>Update</a></td>";
                             echo '</th>';
                             echo '</tr>';
                         }
