@@ -13,6 +13,7 @@ require_once 'src/config.inc.php';
         <?php require_once 'src/includes/header.php'; ?>
         <main style="margin-top: 10%;">
             <div class="container">
+                <h1><b>Welcome, <?php echo $_SESSION['username']; ?></b></h1>
                 <table class="table">
                     <thead>
                     <tr>

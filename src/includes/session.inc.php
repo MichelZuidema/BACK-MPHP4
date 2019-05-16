@@ -2,7 +2,7 @@
 session_start();
 
 if(!isset($_SESSION['username']) || strlen($_SESSION['username']) == 0){
-    header("Location:/MPHP4/index.php");
+    header("Location:/BACK-MPHP4/index.php");
     exit;
 }
 ?>
