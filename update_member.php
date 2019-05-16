@@ -1,5 +1,7 @@
 <?php
+require_once 'src/includes/session.inc.php';
 require_once 'src/config.inc.php';
+
 $id = $_GET['id'];
 
 if(!is_numeric($id)) {

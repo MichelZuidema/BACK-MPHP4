@@ -1,4 +1,5 @@
 <?php
+require_once 'src/includes/session.inc.php';
 require_once 'src/config.inc.php';
 ?>
 <html>
