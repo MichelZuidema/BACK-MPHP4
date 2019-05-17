@@ -1,5 +1,5 @@
 <?php
-require_once 'src/includes/session.inc.php';
+require_once '../includes/session.inc.php';
 require_once '../config.inc.php';
 
 //Get ID from URL
